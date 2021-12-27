@@ -41,15 +41,15 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/signin">
+        {/* <Route path="/signin">
           <SignIn />
         </Route>
         <Route path="/signup">
           <SignUp />
-        </Route>
-        <Route path="/reset-password">
+        </Route> */}
+        {/* <Route path="/reset-password">
           <ResetPassword />
-        </Route>
+        </Route> */}
       </Switch>
     </>
   );
